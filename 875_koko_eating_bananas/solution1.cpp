@@ -17,6 +17,8 @@ public:
 
         while (lnum < rnum) {
             int mid = (lnum + rnum) / 2;
+            //  mid = lnum + (rnum - lnum) / 2; avoid overflow
+            //  mid = (lnum + rnum) >> 1; faster than "/"
             // printf("%d, %d, %d ", lnum, mid, rnum);
             temp_h = 0;
             for (int i = 0; i < size; i++) {
