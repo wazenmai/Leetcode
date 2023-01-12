@@ -1,4 +1,9 @@
-
+/**
+ * Title:v Number of Nodes in the Sub-Tree With the Same Label (Leetcode Medium)
+ * Author: Bronwin Chen <iotbwu0101@gmail.com>
+ * Date:   12, Janurary, 2023
+ * Note:   Remember to add '&' at parameter. 
+ */
 
 class Solution {
 private:
