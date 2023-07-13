@@ -6,7 +6,7 @@
  * Result: Accepted. Time Complexity O(nlogn)
  */
 
- class Solution {
+class Solution {
 public:
     bool findWindow(int size, vector<int>& nums, int target) {
         int n = (int)nums.size();
