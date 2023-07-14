@@ -1,7 +1,7 @@
 /**
  * Title:  Course Schedule (Leetcode Medium)
  * Author: Bronwin Chen <iotbwu0101@gmail.com>
- * Date:   13, July, 2023
+ * Date:   13, July, 2023 
  */
 
 class Solution {
