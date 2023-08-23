@@ -1,7 +1,7 @@
 /**
  * Title:    Repeated Substring Pattern (Leetcode Easy)
  * Author:   Bronwin Chen <iotbwu0101@gmail.com>
- * Date:     06, August, 2023
+ * Date:     21, August, 2023
  * Analysis: O(Nxsqrt(N))
  */
 
