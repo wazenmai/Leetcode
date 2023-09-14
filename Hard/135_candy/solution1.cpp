@@ -1,5 +1,5 @@
 /**
- * Title:  Maximum Ice Cream Bars (Leetcode Medium)
+ * Title:  Candy (Leetcode Hard)
  * Author: Bronwin Chen <iotbwu0101@gmail.com>
  * Date:   13, September, 2023
  */
