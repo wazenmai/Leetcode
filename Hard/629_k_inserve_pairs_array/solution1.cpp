@@ -1,5 +1,5 @@
 /**
- * Title:  K Inverse Pairs Array (Leetcode Medium 629)
+ * Title:  K Inverse Pairs Array (Leetcode Hard 629)
  * Author: Bronwin Chen <iotbwu0101@gmail.com>
  * Date:   27, Janurary, 2024
  * Method: DP. dp[i][j] = there are i numbsers with j inverse pairs.
