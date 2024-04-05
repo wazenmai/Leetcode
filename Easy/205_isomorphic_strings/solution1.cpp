@@ -3,7 +3,7 @@
  * Author: Bronwin Chen <iotbwu0101@gmail.com>
  * Date:   02, April, 2024
  * Method: Use two hash maps to record the mapping of two strings.
- * Result: Time complexity is O(n), space complexity is O(n).
+ * Result: Time complexity is O(n), space complexity is O(256).
  */
 
 class Solution {
