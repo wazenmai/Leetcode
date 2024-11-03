@@ -2,6 +2,7 @@
  * Title:  Rotate String (Leetcode Easy 796)
  * Author: Bronwin Chen <iotbwu0101@gmail.com>
  * Date:   03, November, 2024
+ * Result: Time complexity O(n^2), space complexity O(1).
  */
 
 class Solution {
