@@ -4,7 +4,7 @@
  * Date:   30, August, 2024
  * Method: Dijkstra. First calculate shortest path with -1 edges, if it's less than target, return empty vector. If it's equal to target, mark -1 edges to inf.
  *         Then check whether shortest path with -1 -> 1 edges is smaller than target, if new distance <= target, modify edge to 1 + target - newd. The rest of -1 edge should be inf.
- * Result: Time compleixty is O((n + m)logn) for Dijkstra, so the total time complexity is O(m(n + m)logn). Space compleixty is O(n^2) for graph, O(n + m) for Dijkstra.
+ * Result: Time compleixty is O((V + E)logE) for Dijkstra, so the total time complexity is O(E(V + E)logE). Space compleixty is O(V^2) for graph, O(V + E) for Dijkstra.
  */
 
 class Solution {

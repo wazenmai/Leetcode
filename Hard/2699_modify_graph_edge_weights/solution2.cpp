@@ -4,7 +4,7 @@
  * Date:   30, August, 2024
  * Method: Since solution1.cpp needs to run dijkstra for multiple times. Here we modify it to only run two times.
  *         1. Calculate shortest path viewing -1 edge as 1. If the shortest path from source to destination is greater than target, we can't even meet target with smallest modified weight, return empty vector.
- *         2. Calculate shortest path viewing -1 edge as the difference between target -  shortest path in first run + the shortest path from that node to dest (from last run) - the path we have walked through in this run. 
+ *         2. Calculate shortest path viewing -1 edge as the difference between target -  shortest path in first run + the shortest path from source to nxt (v) (from first run) - the path we have walked through in this run (source ~ u). u -> v
  *         If the shortest path from source to destination is less than target, meaning there is a shorter path (than target) to destination, return empty vector.
  *         Else, we meet the target and mark rest of -1 edges to 1 to stay same with first run.
  * Result: Time compleixty is O((n + m)logn) for Dijkstra, so the total time complexity is O(2(n + m)logn) = O(mlogn) // m usually >> n. Space compleixty is O(2m + 2n) for graph and distances, O(n + m) for Dijkstra.
