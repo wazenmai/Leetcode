@@ -3,6 +3,7 @@
  * Author: Bronwin Chen <iotbwu0101@gmail.com>
  * Date:   31, May, 2021
  * Method: Maintain state machine
+ * Result: Runtime Error
  */
 
 // 0 -> (buy) -> 1 -> (sell) -> 2 -> (buy) -> 3 -> (sell) -> 4(End)
